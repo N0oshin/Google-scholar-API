@@ -5,9 +5,9 @@ It is difficult to retrieve those data manually and is time-consuming . Automati
 The objective of the task is to automate the whole process of retrieval of publications details from google scholar and tagging it accordingly to make it easy for the NITC authorities to answer the queries of NBA.
 
 **Tech stack used**
-Front-end development: HTML, CSS, and JavaScript. 
-Back-end development : Python Flask
-Database : Firebase real time database
+1. Front-end development: HTML, CSS, and JavaScript. 
+2. Back-end development : Python Flask
+3. Database : Firebase real time database
 
 **Functionalities**
 1. The system shall allow valid users to log in to the web application.
