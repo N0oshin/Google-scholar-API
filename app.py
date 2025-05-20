@@ -628,6 +628,26 @@ def tagged():
 
 
 
+# cred = credentials.Certificate('firebase/serviceaccountkey.json')
+# firebase_admin.initialize_app(cred, {
+#     'databaseURL': "https://cnctfirebasrtopy-default-rtdb.firebaseio.com"
+# })
+
+# #firebase config
+# config = {
+#   "apiKey": "AIzaSyDzCxEcjKLOfsDoFSsHwVc0ZSPi6MnuDAI",
+#   "authDomain": "cnctfirebasrtopy.firebaseapp.com",
+#   "databaseURL": "https://cnctfirebasrtopy-default-rtdb.firebaseio.com",
+#   "projectId": "cnctfirebasrtopy",
+#   "storageBucket": "cnctfirebasrtopy.appspot.com",
+#   "messagingSenderId": "84687946449",
+#   "appId": "1:84687946449:web:0a476ef01a3495460c7bf0",
+#   "measurementId": "G-20TMTEEKL7"
+}
+
+
+
+
     
 
 
