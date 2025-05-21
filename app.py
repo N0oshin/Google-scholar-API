@@ -479,7 +479,75 @@ def search():
 
 
 
+# @app.route('/url',methods=('GET','POST'))
+# def url():
+#     if request.method == 'POST':
+#         accesed_url = request.form['urll']
+#         headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'}
+#         options = Options()
+#         options.add_argument('--headless')
+#         driver = webdriver.Chrome(options=options)
+#         driver.get(accesed_url)
 
+#         # keep clicking show more
+#         while True:
+#             try:
+#                 btn = driver.find_element("id","gsc_bpf_more")
+#                 if not btn.is_enabled():
+#                     break
+#                 btn.click()
+#                 print("btn clicked")
+#                 time.sleep(2)
+#             except NoSuchElementException:
+#                 break
+        
+#         soup = BeautifulSoup(driver.page_source, 'html.parser')
+        
+#         table = soup.find('table', id='gsc_a_t')
+#         tr= table.find_all('tr',class_='gsc_a_tr')
+#         for i in tr:
+#             title_name=i.find('a',class_='gsc_a_at').text
+#             title_name=title_name.replace('"','')
+#             title=re.sub(r'\W+', '', title_name).replace(' ', '_')
+#             details=i.find_all('div',class_='gs_gray')
+#             loop_count = 0
+#             for n,j in enumerate(details):
+#                 if n==0:
+#                     authors=j.text
+                    
+#                 else:
+#                     publication=j.text
+#             y=i.find('span',class_='gsc_a_h gsc_a_hc gs_ibl')
+#             c=i.find('a',class_='gsc_a_ac gs_ibl')
+#             publication=publication.split(',')[0]
+#             year=y.text
+#             cited_by=c.text
+                    
+#             key=title+year
+            
+
+#             if authors.endswith('...'):
+#                 authors = authors[:-3]  # remove the last three characters from the string
+#             authors_list = authors.split(',')
+#             if authors_list[-1]==" ":  # check if the last item starts with a space
+#                 authors_list.pop()  # remove the last item from the list
+            
+#             authors = authors_list
+
+#             if authors:
+#                 author_names = authors
+#                 non_empty_authors = [author.strip() for author in author_names if author.strip()]
+#                 if non_empty_authors:
+#                     database.child("Publications").child(key).update({'title':title_name,'year':year,'cited_by':cited_by})
+#                     database.child("Publications").child(key).child("publication").update({'publication':publication,'p_tagg':"untagged"})
+#                     database.child("Publications").child(key).update({"SCI":0,"Scopus":0,"tagg":"untagged"})
+#                     for author in non_empty_authors:
+#                         database.child("Publications").child(key).child("authors").child(author).update({'name':author,'tagg':"untagged"})
+                    
+
+#         return redirect(url_for('home_page'))
+    
+#     return render_template('url.html')
 
 @app.route('/export')
 def export():
