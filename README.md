@@ -28,12 +28,14 @@ Retrieving this data manually is difficult and time-consuming. This project auto
    
 **Scholar Link**
 
-   ![image](https://github.com/N0oshin/Google-scholar-API/assets/98681539/74206fb5-0072-41d1-b0d3-db314163f2f2)
+   ![image](https://github.com/user-attachments/assets/5db3465a-e2dc-4896-ac66-0494989359d6)
 
- 
-**Search**
 
-   ![image](https://github.com/N0oshin/Google-scholar-API/assets/98681539/90f89b4f-59d1-442c-8f7b-085a79ab5d0b)
+**Search and search result**
+
+   ![image](https://github.com/user-attachments/assets/9f293d1a-88cc-4861-8cb6-72f2beac0e27)
+   ![image](https://github.com/user-attachments/assets/8377e5e3-a480-473c-bcd8-ced65130b6fe)
+
 
    
 **Tagging**
