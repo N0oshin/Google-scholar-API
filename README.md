@@ -42,7 +42,8 @@ Retrieving this data manually is difficult and time-consuming. This project auto
 
 **Edit tags**
 
-   ![image](https://github.com/N0oshin/Google-scholar-API/assets/98681539/5d37e580-c96b-481d-a2b1-460072222f0b)
+   ![image](https://github.com/user-attachments/assets/cc9646b0-8d90-40ef-af59-141518275172)
+
 
 
 
