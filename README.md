@@ -18,9 +18,11 @@ Retrieving this data manually is difficult and time-consuming. This project auto
 
 **User Authentication**
 
-   ![image](https://github.com/N0oshin/Google-scholar-API/assets/98681539/81b58cc1-da39-4524-ae26-1563400ce593)
+   ![image](https://github.com/user-attachments/assets/b3e8c640-1438-4df6-97b0-7c999997542c)
+
  
-   ![image](https://github.com/N0oshin/Google-scholar-API/assets/98681539/662f9e36-8fe2-44ec-89ad-024f69f86bb7)
+   ![image](https://github.com/user-attachments/assets/8bcf926f-5119-4440-b361-f00c51649013)
+
    
 **Home page**
 
